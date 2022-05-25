@@ -70,10 +70,23 @@ img {
     line-height: 1.19;
     text-align: left;
     letter-spacing: var(--let-spc);
+}
 
-    /* perspective: 1000px; */
-    /* transform-origin: left center; */
-    /* animation: logoA 2500ms ease-in-out infinite normal; */
+.logo-navigation {
+    animation: logoA 1500ms ease-in-out infinite normal;
+}
+
+@keyframes logoA {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.8);
+    }
+    100% {
+        transform: scale(1);
+    }
+    
 }
 
 .logo-nav-word {
@@ -202,7 +215,6 @@ img {
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
-
 }
 
 .btn-hero {
